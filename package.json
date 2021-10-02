@@ -1,0 +1,24 @@
+{
+  "name": "promisified-redis",
+  "version": "1.0.0",
+  "description": "Promisified redis functions that works for older node versions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naweddiwan/promisified-redis.git"
+  },
+  "author": "Nawed Diwan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/naweddiwan/promisified-redis/issues"
+  },
+  "homepage": "https://github.com/naweddiwan/promisified-redis#readme",
+  "dependencies": {
+    "redis": "2.5.3",
+    "bluebird": "3.4.7"
+  }
+}
